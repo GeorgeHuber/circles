@@ -19,7 +19,7 @@ class FourierCircle{
 
 
         this.radius = radius;
-        this.center = convertToCentered(center);
+        this.center = center;
         this.parent = parent;
         if (parent){
             this.center = {x:0, y:0};
